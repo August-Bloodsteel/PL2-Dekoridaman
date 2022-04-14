@@ -2,17 +2,30 @@
 <div class="main_menu">
 
     <nav class="" id="navbarbleb">
-        <a href="index.html"><img src="img/logo_nav.svg" alt=""></a>
+        <a href="index.html"><img class ="logo_nav" src="img/logo_nav.svg" alt=""></a>
         <div class="nav-links" id="navLinks">
             <ul>
+                <li><span class="icon close"  onclick="hideMenu()"><img src="./img/close.svg" alt=""></span></li>
                 <li><a href="#header">Home</a></li>
-                <li><a href="#why">About Us</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#produk">Product</a></li>
                 <li><a href="#testimoni">Testimoni</a></li>
                 <li><a href="#help">Contact</a></li>
             </ul>
         </div>
+        <span class="icon bars"  onclick="showMenu()"><img src="./img/bars.svg" alt=""></span>
     </nav>
 
 </div>
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-259px";
+    }
+    </script>
 <!-- =========================== End Navbar Area =========================== -->
