@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+        <!-- Icons -->
+        <link rel="shortcut icon" type="image" href="./img/icon.svg">
+
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +28,7 @@
 <body>
     <!-- =========================== Start Include Content Area =========================== -->
 
+    <div id="navbar"></div>
     <div id="header"></div>
 
 
@@ -49,6 +53,7 @@
     <!-- Custom Script -->
     <script>
         $(function(){
+            $("#navbar").load("navbar.html");
             $("#header").load("header.html");
             $("#about").load("about.html");
             $("#produk").load("produk.html");
