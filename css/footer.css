@@ -1,0 +1,142 @@
+.footer_area{
+    background-color: rgba(53, 60, 53, 1);
+}
+
+.footer_content .row{
+    padding: 77px 0 0 0;
+    justify-content: center;
+}
+
+.footer_content .row.copy{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+
+    text-align: center;
+    padding: 75px 0 52px 0;
+}
+
+.footer_content .footer_logo{
+    width: 236px;
+    margin-bottom: 5px;
+}
+
+.footer_content .footer_title{
+    display: flex;
+    justify-content: start;
+    margin: 12px 0 10px 0;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: white;
+}
+
+.footer_content .kolom3 .footer_title{
+    margin: 12px 0 5px 0;
+}
+
+.footer_content .row .kol p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: white;
+}
+
+.footer_content .row .kol i{
+    color: white;
+    margin-right: 10px;
+}
+
+.footer_content .row .kol a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer_content .row .kolom4 .subscribe_box{
+    padding: 5px;
+    border-radius: 32px;
+    background: white;
+}
+
+.footer_content .row .kolom4 .subscribe_box .form_sub{
+    width: 100%;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+}
+
+.footer_content .row .kolom4 .subscribe_box .btn_sub{
+    border: none;
+    border-radius: 32px;
+    background-color: #F2C229;;
+    width: 50%;
+    padding: 10px 0;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: white;
+}
+
+@media (max-width:992px){
+}
+
+@media (max-width: 576px){
+
+    .footer_content .row{
+        padding: 32px 32px 0px;
+    }
+
+    .footer_content .footer_logo{
+        width: 137px;
+        margin-bottom: 5px;
+    }
+
+    .footer_content .row .kolom4 .subscribe_box .form_sub{
+        font-size: 12px;
+    }
+
+    .footer_content .row .kolom4 .subscribe_box .btn_sub{
+        font-size: 12px;
+    }
+    
+
+    .footer_content .row.copy{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+    
+        text-align: center;
+        padding: 75px 0 52px 0;
+    }
+    
+    .footer_content .row.copy .copy_teks{
+        display: none;
+    }
+
+}
