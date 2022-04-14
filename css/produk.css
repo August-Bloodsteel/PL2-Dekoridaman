@@ -1,0 +1,61 @@
+.produk
+{
+    background-color: aqua;
+    height: 839px;
+    
+}
+
+.produk h1
+{
+    font-family: 'Fira Sans';
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    /* identical to box height, or 53px */
+
+    letter-spacing: 0.005em;
+
+    color: #223E3F;
+    text-transform: capitalize;
+}
+
+.produk li button
+{
+    
+    width: 143px;
+    height: 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.005em;
+    
+}
+
+.produk li
+{
+    display: flex;
+    align-items: center;
+    padding-right: 14px;
+
+}
+
+.produk li .nav-link
+{
+    border-radius: 24px;
+    background: #D7EAD7;
+    color: rgba(34, 62, 63, 0.75);
+}
+
+
+.produk li .nav-link.active
+{
+    background: #223E3F;
+    border-radius: 24px;
+    transition: 0.5s;
+}
