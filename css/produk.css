@@ -64,11 +64,19 @@
 
 .produk .card
 {
-    width: 21rem; 
+    width: 345px;
+    height: 579px; 
     margin: 60px;
     border: none;
+    position: sticky;
+    transition: 0.5s;
     
 }
+/* .produk .card:hover
+{
+    width: 360px;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+} */
 
 .produk .card-body
 {
@@ -140,6 +148,7 @@
     color: #223E3F;
 }
 
+
 .produk .kartu-dalam .card .lingkaran-kanan
 {
     position: relative;
@@ -152,4 +161,78 @@
     height: 302px;
     position: relative;
     bottom: 130px;
+    
+}
+
+/* responsive */
+
+@media only screen and (max-width: 900px) {
+    .produk .kartu-dalam {
+      display: flex;
+      flex-direction: column;
+      
+
+    }
+
+    .produk .kartu-dalam .card
+    {
+        margin: 50px;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    .produk .card
+    {
+        width: 290px;
+        height: 486px; 
+        margin: 60px;
+        border: none;
+
+        
+    }
+
+    .produk .card-body
+    {
+
+        width: 290px;
+        height: 184px;
+        position: absolute;
+        top: 330px;
+       
+    }
+
+    .produk .kartu-dalam .card .lingkaran-kanan
+    {
+        position: absolute;
+        left: 138px;
+    }
+
+    .produk .kartu-dalam .card .gambar-tengah img
+    {
+        width: 151px;
+        height: 253px;
+        position: relative;
+        bottom: 0px;
+        
+    }
+
+    .produk li button
+    {
+        
+        width: 91px;
+        height: 35px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        letter-spacing: 0.005em;
+        
+    }
 }
