@@ -1,0 +1,7 @@
+.testi
+{
+    background: url(/img/bg-testi.png) no-repeat;
+    background-size: cover;
+    height: 640px; 
+    border-radius: 24px;
+}
