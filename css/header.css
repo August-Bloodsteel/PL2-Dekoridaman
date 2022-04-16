@@ -1,0 +1,13 @@
+.header_area{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header_area .banner_lamp{
+    position: absolute;
+    width: 141px;
+    height: 187px;
+    top: -3%;
+    z-index: -1;
+}
