@@ -95,6 +95,19 @@
 
 }
 
+.testi .carousel-indicators button.active
+{
+    width: 8px;
+    height: 8px;
+}
+
+.testi .carousel-indicators button
+{
+    width: 6px;
+    height: 6px;
+
+}
+
 
 @media only screen and (max-width: 900px)
 {
@@ -183,7 +196,27 @@
 
     .testi .carousel-indicators 
     {
-        display: none;
+        position: relative;
+    }
+
+    .testi .carousel-indicators button
+    {
+        background-color: rgba(181, 181, 181, 0.5);
+        position: relative;
+        top: 450px;
+    }
+
+    .testi .carousel-indicators button.active
+    {
+        background-color: #8A8A8A;
+
+    }
+
+    .testi .kirikanan button
+    {
+        position: absolute;
+        color: #223E3F;
+        top: 650px;
     }
 }
 
@@ -261,5 +294,20 @@
         top: 660px;
     }
 
+    .testi .carousel-indicators button
+    {
+        background-color: rgba(181, 181, 181, 0.5);
+        position: relative;
+        top: 200px;
+    }
+
+    .testi .kirikanan button
+    {
+        position: absolute;
+        color: #223E3F;
+        top: 350px;
+    }
+
+    
     
 }
