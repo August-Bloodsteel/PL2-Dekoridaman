@@ -1,0 +1,147 @@
+.Contact
+{
+    padding-top: 100px;
+}
+
+.Contact h1
+{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 110%;
+    /* identical to box height, or 53px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #223E3F;
+}
+
+.Contact form input
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #7B8E7B;
+    border-radius: 0px;
+}
+
+.Contact form label
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #223E3F;
+}
+
+.Contact form textarea
+{
+    margin-top: 10px;
+    border: 1px solid #7B8E7B;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.Contact form .bt button
+{
+    width: 166px;
+    height: 54px;
+    background: #223E3F;
+    border-radius: 16px;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #FFFFFF;
+}
+
+.Contact .gambar img
+{
+    width: 464px; 
+    height: 704px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 900px)
+{
+    .Contact
+    {
+        padding-top: 430px;
+    }
+
+    .Contact h1
+    {
+        text-align: center;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 110%;
+        /* or 35px */
+        
+        letter-spacing: 0.005em;
+        
+        color: #223E3F;
+    }
+
+    .Contact .form
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .Contact form input
+    {
+        width: 290px;
+    }
+
+    .Contact form textarea
+    {
+        width: 290px;
+    }
+
+    .Contact .gambar img
+    {
+        width: 268.75px;
+        height: 440px;
+    }
+}
+
+
+@media only screen and (max-width: 576px)
+{
+    .Contact form .bt button
+    {
+        width: 96px;
+        height: 37px;
+        background: #223E3F;
+        border-radius: 8px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        letter-spacing: 0.005em;
+
+        color: #FFFFFF;
+    }
+}
