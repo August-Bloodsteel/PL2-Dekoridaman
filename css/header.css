@@ -49,9 +49,6 @@
 
 .header_area .site_title .title_button a{
     background: #223E3F;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     padding: 12px 24px;
     position: absolute;
@@ -70,6 +67,75 @@
     color: #FFFFFF;
 }
 
-.header_area .site_banner{
+.header_area .site_banner .offer_box_discount{
+    position: absolute;
+    width: 275px;
+    height: 120px;
+    right: 29.5%;
+    top: 16%;
 
+    background: #FFFFFF;
+    border: 0.5px solid rgba(34, 62, 63, 0.15);
+    box-sizing: border-box;
+    box-shadow: 16px 16px 24px rgba(34, 62, 63, 0.20);
+    border-radius: 16px;
+    padding: 14px 35px;
+}
+
+.header_area .site_banner .offer_box_discount .offer_box_o{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -20%;
+    left: -10%;
+}
+
+.header_area .site_banner .offer_box_discount .discount_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #223E3F; 
+    margin: 10px 0 0 0;
+}
+
+.header_area .site_banner .offer_box_discount .discount_size{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #223E3F;
+    margin: 0;
+}
+
+
+.header_area .site_banner .offer_box_quote{
+    position: absolute;
+    width: 215px;
+    height: 65px;
+    top: 34%;
+    right: 5%;
+
+    background: #FFFFFF;
+    border: 0.5px solid rgba(34, 62, 63, 0.15);
+    box-sizing: border-box;
+    box-shadow: 16px 16px 24px rgba(34, 62, 63, 0.20);
+    border-radius: 12px;
+    padding: 12px 22px;
+}
+
+.header_area .site_banner .offer_box_quote p{
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #223E3F;
 }
