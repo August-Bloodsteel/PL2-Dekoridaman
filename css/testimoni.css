@@ -2,6 +2,264 @@
 {
     background: url(/img/bg-testi.png) no-repeat;
     background-size: cover;
-    height: 640px; 
+    height: 571px; 
     border-radius: 24px;
+}
+
+.testimoni h1
+{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    /* identical to box height, or 53px */
+
+    letter-spacing: 0.005em;
+
+    color: #223E3F;
+    margin-bottom: 30px;
+}
+
+.testi .carousel-inner .tengah
+{
+    display: flex;
+    position: absolute;
+    left: 180px;
+    top: 70px;
+    flex-direction: column;
+    z-index: 100;
+    width: 477px;
+
+}
+
+.testi .carousel-inner .tengah img
+    {
+        position: relative; 
+        top: 0px;
+        z-index: 100;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+.testi .carousel-inner .tengah h3
+{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+
+        letter-spacing: 0.05em;
+        
+
+        color: #FFFFFF;
+}
+
+.testi .carousel-inner .tengah h5
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #FFFFFF;
+    position: absolute;
+    top: 370px;
+}
+
+.testi .carousel-inner .tengah h1
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.testi .carousel-inner
+{
+    height: 571px;
+
+}
+
+
+@media only screen and (max-width: 900px)
+{
+    .testi
+    {
+        background: url(/img/bg2.png) no-repeat;
+        background-size: cover;
+        border-radius: 40px;
+    }
+    .testimoni
+    {
+        padding-top: 1400px;
+    }
+
+    .testimoni h1
+    {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 110%;
+        /* or 35px */
+
+        letter-spacing: 0.005em;
+
+        color: #223E3F;
+        text-align: center;
+    }
+
+    .testi .carousel-inner
+    {
+        overflow: visible; 
+    }
+
+    .testi .carousel-inner .tengah
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        position: absolute;
+        left: 100px;
+    }
+
+    .testi .carousel-inner .tengah img.bintang
+    {
+        position: absolute; 
+        top: 600px;
+        z-index: 100;
+        width: 100px;
+        height: 100px;
+    }
+
+    .testi .carousel-inner .tengah img.orang
+    {
+        position: absolute; 
+        top: 450px;
+        z-index: 100;
+        width: 100px;
+        height: 100px;
+    }
+
+    .testi .carousel-inner .tengah h3
+    {
+        position: absolute; 
+        text-align: center;
+        top: 680px;
+        color: #8A8A8A;
+        width: 400px;
+    }
+
+    .testi .carousel-inner .tengah h1
+    {
+        position: absolute; 
+        text-align: center;
+        top: 800px;
+        color: #8A8A8A;
+    }
+    .testi .carousel-inner .tengah h5
+    {
+        position: absolute; 
+        text-align: center;
+        top: 880px;
+        color: #8A8A8A;
+    }
+
+    .testi .carousel-indicators 
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px)
+{
+    .testimoni
+    {
+        padding-top: 1100px;
+    }
+    .testi
+    {
+        width: 289px;
+        height: 276px;
+        border-radius: 24px;
+       
+    }
+
+    .testi .carousel-inner .tengah
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        position: absolute;
+        left: -90px;
+        
+
+    }
+
+    .testi .carousel-inner .tengah img.orang
+    {
+        position: absolute; 
+        top: 300px;
+        z-index: 100;
+        width: 100px;
+        height: 100px;
+    }
+
+    .testi .carousel-inner .tengah img.bintang
+    {
+        position: absolute; 
+        top: 430px;
+        z-index: 100;
+        width: 100px;
+        height: 100px;
+    }
+
+    .testi .carousel-inner .tengah h3
+    {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+        
+        text-align: center;
+        letter-spacing: 0.005em;
+        
+        color: #8A8A8A;
+        top: 500px;
+        width: 289px;
+    }
+
+    .testi .carousel-inner .tengah h1
+    {
+        
+        top: 580px;
+        color: #8A8A8A;
+    }
+
+    .testi .carousel-inner .tengah h5
+    {
+        color: #8A8A8A;
+        top: 660px;
+    }
+
+    
 }
