@@ -65,10 +65,9 @@ nav i{
     width: 10px;
 }
 
-@media (max-width:992px){
-
+@media only screen and (max-width:1024px){
     nav{
-        padding: 5% 6%;
+        padding: 25px 122px;
     }
 
     nav .logo_nav{
@@ -112,5 +111,16 @@ nav i{
 
     .nav-links ul{
         padding: 30px;
+    }
+
+    .nav-links ul li:hover::after{
+        width: 0;
+    }
+}
+
+@media only screen and (max-width:992px){
+
+    nav{
+        padding: 5% 6%;
     }
 }
