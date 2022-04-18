@@ -4,6 +4,12 @@
     
 }
 
+.produk ul
+{
+    position: relative;
+    top: -20px;
+}
+
 .produk h1
 {
     font-family: 'Fira Sans';
@@ -32,7 +38,7 @@
     line-height: 150%;
     /* identical to box height, or 30px */
 
-    letter-spacing: 0.005em;
+    letter-spacing: 0.005em; 
     
 }
 
@@ -72,6 +78,7 @@
     transition: 0.5s;
     
 }
+
 /* .produk .card:hover
 {
     width: 360px;
@@ -178,6 +185,21 @@
     {
         margin: 50px;
     }
+
+    .produk .card-body .container a
+    {
+        width: 145px;
+        height: 40px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+        
+        letter-spacing: 0.005em;
+        
+        color: #FFFFFF;    }
 
     
 

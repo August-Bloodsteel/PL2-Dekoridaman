@@ -17,7 +17,7 @@
     color: #223E3F;
 }
 
-.Contact form input
+.Contact .form form input
 {
     border-left: none;
     border-right: none;
@@ -25,6 +25,8 @@
     padding: 10px 0px 10px 0px;
     border-bottom: 1px solid #7B8E7B;
     border-radius: 0px;
+    box-shadow: none;
+    outline: none;
 }
 
 .Contact form label
@@ -48,6 +50,8 @@
     box-sizing: border-box;
     border-radius: 12px;
     padding: 10px;
+    box-shadow: none;
+    outline: none;
 }
 
 .Contact form .bt button
@@ -110,6 +114,7 @@
     .Contact form input
     {
         width: 290px;
+
     }
 
     .Contact form textarea
