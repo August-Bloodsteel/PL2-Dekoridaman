@@ -15,7 +15,7 @@
 
 .header_area .site_title{
     margin-top: 10%;
-    margin-left: 70px;
+    margin-right: 35px;
 }
 
 .header_area .site_title .title_text{
@@ -46,9 +46,8 @@
 }
 
 .header_area .site_title .title_button a{
-    background: #223E3F;
     align-items: center;
-    /* padding: 12px 24px; */
+    background: #223E3F;
     position: absolute;
     width: 204px;
     height: 60px;
@@ -67,7 +66,7 @@
 }
 
 .header_area .site_title .title_button a:hover{
-    box-shadow: 16px 16px 24px rgba(34, 62, 63, 0.5);
+    box-shadow: 16px 16px 24px rgba(34, 62, 63, 0.25);
 }
 
 .header_area .site_banner{
@@ -83,7 +82,7 @@
     position: absolute;
     width: 275px;
     height: 120px;
-    right: 29.5%;
+    right: 23.5%;
     top: 16%;
 
     background: #FFFFFF;
@@ -129,7 +128,7 @@
     width: 215px;
     height: 65px;
     top: 34%;
-    right: 5%;
+    right: 3%;
 
     background: #FFFFFF;
     border: 0.5px solid rgba(34, 62, 63, 0.15);
@@ -202,16 +201,22 @@
         margin: 40px 0;
     }
 
+    .header_area .site_title{
+        margin-top: 48px;
+    }
+
     .header_area .site_title .title_text{
         font-size: 36px;
     }
 
     .header_area .site_title .title_paragraph{
         font-size: 14px;
+        margin-bottom: 40px;
     }
 
     .header_area .site_title .title_button a{
         width: 157px;
+        height: 48px;
         font-size: 16px;
     }
 
