@@ -103,7 +103,7 @@
 @media (max-width:992px){
     .footer_area
     {
-        margin-top: 1900px;
+        margin-top: 75px;
     }
 }
 
@@ -116,6 +116,14 @@
     .footer_content .footer_logo{
         width: 137px;
         margin-bottom: 5px;
+    }
+
+    .footer_content .row .kol{
+        margin-bottom: 30px;
+    }
+
+    .footer_content .row .kolom4{
+        padding: 0;
     }
 
     .footer_content .row .kolom4 .subscribe_box .form_sub{
