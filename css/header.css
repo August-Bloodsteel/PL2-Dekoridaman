@@ -46,9 +46,8 @@
 }
 
 .header_area .site_title .title_button a{
-    background: #223E3F;
     align-items: center;
-    /* padding: 12px 24px; */
+    background: #223E3F;
     position: absolute;
     width: 204px;
     height: 60px;

@@ -1,0 +1,94 @@
+.about_area{
+    padding-bottom: 80px;
+}
+
+.about_area .row{
+    position: relative;
+}
+
+.about_area .about_box{
+    background-image: url(../img/bg_about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+
+    height: 571px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.about_area .about_text_box{
+    background-color: rgba(34, 62, 63, 1);
+    width: 57%;
+    height: 87%;
+    padding: 0 71px 0 30px;
+}
+
+.about_area .hidden_about h1{
+    display: none;
+}
+
+.about_area .about_text_box .d_about_title{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: 0.005em;
+    color: #F2C229;
+
+    margin: 120px 0 21px 0;
+}
+
+.about_area .about_text_box .d_about_paragraph{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+
+    width: 459px;
+}
+
+.about_area .about_button{
+    position: absolute;
+    bottom: -6%;
+}
+
+.about_area .about_button .about_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #F2C229;
+    border-radius: 12px;
+    width: 224px;
+    height: 84px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #223E3F;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.about_area .about_button .about_btn:hover{
+    box-shadow: 16px 16px 24px rgba(242, 194, 41, 0.35);
+}
+
+.about_area .about_button .about_btn.tengah{
+    padding: 0 0 0 20px;
+}
+
+.about_area .about_button .about_btn>i{
+    font-weight: bold;
+    color: #223E3F;
+    font-size: 40px;
+    margin: 0 10px 0 0;
+}
