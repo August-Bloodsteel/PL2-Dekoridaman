@@ -4,6 +4,13 @@
     
 }
 
+.produk .card .bulet
+{
+    position: absolute;
+    top: -20px;
+    left: 35px;
+}
+
 .produk ul
 {
     position: relative;
@@ -114,6 +121,7 @@
    font-weight: 500;
    font-size: 16px;
    line-height: 150%;
+   margin-top: 24px;
     /* identical to box height, or 24px */
 
    letter-spacing: 0.005em;
@@ -200,6 +208,12 @@
         letter-spacing: 0.005em;
         
         color: #FFFFFF;    }
+
+    .produk .card .bulet
+    {
+        width: 40px;
+        height: 40px;
+    }
 
     
 
