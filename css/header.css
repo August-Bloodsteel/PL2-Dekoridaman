@@ -14,7 +14,8 @@
 }
 
 .header_area .site_title{
-    margin-top: 10%;
+    margin-top: 140px;
+    margin-left: 35px;
     margin-right: 35px;
 }
 
@@ -192,7 +193,7 @@
 
     .header_area .site_banner .offer_box_quote{
         right: 10%;
-        top: 95%;
+        top: 83%;
     }
 }
 
