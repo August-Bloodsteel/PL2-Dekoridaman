@@ -181,7 +181,9 @@
 
 /* responsive */
 
-@media only screen and (max-width: 900px) {
+
+
+@media only screen and (max-width: 1024px) {
     .produk .kartu-dalam {
       display: flex;
       flex-direction: column;

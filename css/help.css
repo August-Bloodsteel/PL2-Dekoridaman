@@ -82,11 +82,11 @@
 
 /* responsive */
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 1024px)
 {
     .Contact
     {
-        padding-top: 430px;
+        padding-top: 100px;
     }
 
     .Contact h1
@@ -126,6 +126,14 @@
     {
         width: 268.75px;
         height: 440px;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .Contact
+    {
+        padding-top: 430px;
     }
 }
 
