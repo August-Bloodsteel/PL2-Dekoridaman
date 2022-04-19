@@ -200,7 +200,7 @@
 @media only screen and (max-width:992px) and (min-height:1024px){
 
     .header_area{
-        margin: 90px 0;
+        margin: 90px 0 0 0;
     }
 
     .header_area .site_title{
