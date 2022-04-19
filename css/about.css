@@ -107,6 +107,10 @@
 
 @media only screen and (max-width:1024px){
 
+    .about_area{
+        margin-top: 80px;
+    }
+
     .about_area .about_box{
         background-position: 60%;
     }
@@ -154,6 +158,7 @@
 
     .about_area{
         padding-bottom: 0px;
+        margin-top: 20px;
     }
 
     .about_area .about_text_box .d_about_title{
